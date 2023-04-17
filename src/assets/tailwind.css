@@ -1,0 +1,10 @@
+/* src/assets/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+    font-size: 2.5em;
+    color: blue;
+}

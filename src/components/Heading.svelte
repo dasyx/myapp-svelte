@@ -4,7 +4,7 @@
 </script>
 
 <div>
-  <h1>{value}</h1>
+  <h1 class="text-center">{value}</h1>
   <slot />
   <!--la balise slot permet d'insérer du contenu à l'intérieur du composant-->
 </div>

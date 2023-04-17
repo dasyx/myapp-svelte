@@ -4,7 +4,7 @@
   import AddButton from "../../lib/addButton.svelte";
 </script>
 
-<Heading value="Testing Playground">
+<Heading value="Espace de test">
    
 </Heading>
 
