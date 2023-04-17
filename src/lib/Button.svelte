@@ -9,6 +9,11 @@
 	console.log('Le compteur est maintenant à ' + count);
     //alert(`Le compteur est maintenant à ${count}`);
   }
+  $: if (count >= 10) {
+	console.log('Le compteur est déjà bien assez élevé !'); 
+	count = 9;
+	console.log('On va s\'arrêter à ' + count)
+  }
 
   function incrementCount() {
     count += 1;
