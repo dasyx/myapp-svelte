@@ -1,7 +1,6 @@
 <script lang="ts">
     // global styles and scripts
     import "../styles.css";
-    import "../script.js";
     // l'ajout du fichier "+layout.svelte" et l'import dans le dossier "routes" permet de globaliser les feuilles de styles ainsi que les scripts utilisés
     // 
   </script>
@@ -10,8 +9,10 @@
   >> ces éléments seront répétés pour chaque route fille-->
   <nav>
     <a href="/">Home</a>
-    <a href="/otherPage">Autre page</a>
+    <a href="/jsMethods">JS Methods</a>
+    <a href="/counterApp">My Counter App</a>
   </nav>
   
+  <!--l'élément "slot" est utilisé pour montrer le contenu de la page étant donné qu'une page est un composant-->
   <slot />
   
