@@ -20,6 +20,8 @@
   }
 </script>
 
+<h2>Incrementation</h2>
+
 <button on:click={incrementCount}>
   Clicked {count}
   {count <= 1 ? "time" : "times"}
