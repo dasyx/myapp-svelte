@@ -10,7 +10,7 @@
   >> ces éléments seront répétés pour chaque route fille-->
   <nav>
     <a href="/">Home</a>
-    <a href="/posts">Posts</a>
+    <a href="/otherPage">Autre page</a>
   </nav>
   
   <slot />
