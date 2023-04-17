@@ -9,8 +9,15 @@
   $: sum = numbers.reduce((t, n) => t + n, 0);
 </script>
 
-<h2>Math Methods</h2>
+<section>
+  <h2 class="text-xl font-bold text-gray-900 mb-4 mt-2">Ajoute et additionne</h2>
 
-<p>{numbers.join(" + ")} = {sum}</p>
+  <button
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-4 rounded"
+    on:click={addNumber}
+  >
+    Cliquez-moi
+  </button>
 
-<button on:click={addNumber}> Add a number </button>
+  <p>{numbers.join(" + ")} = {sum}</p>
+</section>

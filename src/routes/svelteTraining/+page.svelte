@@ -4,9 +4,9 @@
   import AddButton from "../../lib/addButton.svelte";
 </script>
 
-<Heading value="Espace de test">
-   
-</Heading>
+<main class="container">
+  <Heading value="Espace de test" />
 
-<IncreButton />
-<AddButton />
+  <IncreButton />
+  <AddButton />
+</main>
