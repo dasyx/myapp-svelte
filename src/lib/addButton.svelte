@@ -3,6 +3,8 @@
 
   function addNumber() {
     //numbers.push(numbers.length + 1);
+	  //numbers = numbers;
+    // on peut écrire cette fonction plus efficacement avec ES6 :
     numbers = [...numbers, numbers.length + 1];
   }
 
