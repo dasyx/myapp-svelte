@@ -13,10 +13,20 @@
     addition = addition;
   }
 
+  // fonction addition multiple standard
   function addMultipleElements() {
     //additionMult = [...additionMult, 5, 6, 7];
     additionMult = additionMult.concat([5, 6, 7]);
   }
+  // fonction addition multiple améliorée
+  /* let lastElement =
+    additionMult.length > 0 ? additionMult[additionMult.length - 1] : 4;
+
+  function addMultipleElements() {
+    const newElements = [lastElement + 1, lastElement + 2, lastElement + 3];
+    additionMult = additionMult.concat(newElements);
+    lastElement = newElements[newElements.length - 1];
+  } */
 
   function addElementsToBeginning() {
     //addBegin = [0, ...addBegin];
@@ -79,7 +89,6 @@
   <p class="mb-4">{addBeginMult}</p>
 </section>
 <section>
-
   <h2 class="text-xl font-bold text-gray-900 mb-4 mt-2">
     Méthodes pour supprimer des éléments
   </h2>
