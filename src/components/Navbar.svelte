@@ -107,15 +107,21 @@
             >
 
             <a
-              href="/learnSvelte"
+              href="/comprendre-svelte"
               class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
               >Comprendre Svelte</a
             >
 
             <a
-              href="/jsMethods"
+              href="/methodes-js"
               class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
               >Méthodes JS</a
+            >
+
+            <a
+              href="/made-with-svelte"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+              >Made with Svelte</a
             >
           </div>
         </div>
